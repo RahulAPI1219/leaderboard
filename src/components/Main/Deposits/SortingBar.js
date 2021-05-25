@@ -10,7 +10,7 @@ const Container = styled.div`
 `
 
 const Text = styled.h1`
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 500;
     color: ${({ theme }) => theme.textColor};
@@ -39,10 +39,10 @@ const Status = styled(Text)`
 const SortingBar = () => {
     return (
         <Container>
-            <Property>Property</Property>
-            <MoveInDate>Move In Date</MoveInDate>
-            <Rent>Rent</Rent>
-            <Deposit>Deposit</Deposit>
+            <Property>Name</Property>
+            <MoveInDate>MCD</MoveInDate>
+            <Rent>MCPA</Rent>
+            <Deposit>MCIA</Deposit>
             <Status>Status</Status>
         </Container>
     )

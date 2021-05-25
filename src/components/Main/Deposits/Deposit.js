@@ -42,10 +42,10 @@ const PropertyText = styled.div`
     margin-left: 1rem;
 `
 
-const PropertyImg = styled.img`
-    height: 35px;
-    width: 35px;
-`
+// const PropertyImg = styled.img`
+//     height: 35px;
+//     width: 35px;
+// `
 const PropertyStreet = styled(Text)`
     font-size: 1rem;
 `
@@ -73,22 +73,23 @@ const StatusIndicator = styled.div`
 `
 
 const Deposit = ({ data }) => {
-    const { property, moveInDate, rent, deposit, status } = data;
+    const { Name, EmployeeID, EmpMailID, MulesoftCertifications, status } = data;
 
     return (
         <Container>
             <Property>
-                <PropertyImg src={require(`../../../assets/images/${property.imageUrl}`)} />
+                {/* <PropertyImg src={require(`../../../assets/images/${property.imageUrl}`)} /> */}
                 <PropertyText>
-                    <PropertyStreet>{property.address.street}</PropertyStreet>
-                    <Subtitle>{property.address.city} {property.address.state}</Subtitle>
+                    <PropertyStreet>{Name}</PropertyStreet>
+                    <Subtitle>{EmpMailID}</Subtitle>
+                    <Subtitle>{EmployeeID}</Subtitle>
                 </PropertyText>
             </Property>
-            <MoveInDate>{moveInDate}</MoveInDate>
-            <Rent>${rent}</Rent>
+            <MoveInDate>{MulesoftCertifications.MCD}</MoveInDate>
+            <Rent>{MulesoftCertifications.MCPA}</Rent>
             <DepositWrapper>
-                <Text>${deposit.amount}</Text>
-                <Subtitle>{deposit.type}</Subtitle>
+                <Text>{MulesoftCertifications.MCIA}</Text>
+                {/* <Subtitle>{MulesoftCertifications.MCPA}</Subtitle> */}
             </DepositWrapper>
             <Status>
                 <Text>{status.message}</Text>

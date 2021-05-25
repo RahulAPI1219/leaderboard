@@ -18,3 +18,7 @@ Steps to deploy the code to github gh-pages
 2. run "yarn run deploy"
 
 The project is deployed to the following [url](https://Revanth-Thavva.github.io/leaderboard)
+
+Note
+
+This project is deployed with the help of github gh-pages

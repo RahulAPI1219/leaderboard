@@ -1,85 +1,89 @@
 {
     "active": [
         {
-            "property": {
-                "address": {
-                    "street": "771 Lost Round",
-                    "city": "Sacramento",
-                    "state": "CA"
-                },
-                "imageUrl": "lostround.png"
-            },
-            "moveInDate": "25 February 2020",
-            "rent": 3000.00,
-            "deposit": {
-                "amount": 9000.00,
-                "type": "First, Last & Security"
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1017",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Not enrolled"
             },
             "status": {
-                "message": "Awaiting Bank Processing",
+                "message": "Awaiting Internal Training",
+                "level": 1
+            }
+        },
+        {
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1018",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Not enrolled"
+            },
+            "status": {
+                "message": "Error from Mulesoft department",
                 "level": 2 
             }
         },
         {
-            "property": {
-                "address": {
-                    "street": "1491 Jagged Arbor",
-                    "city": "San Antonio",
-                    "state": "TX"
-                },
-                "imageUrl": "jaggedarbor.png"
-            },
-            "moveInDate": "12 March 2020",
-            "rent": 2300.00,
-            "deposit": {
-                "amount": 4600.00,
-                "type": "First & Last"
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1019",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Not enrolled"
             },
             "status": {
-                "message": "Payment Processed",
-                "level": 3 
+                "message": "Enrolled for training",
+                "level": 3
+            }
+        },
+        {
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1019",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Not enrolled"
+            },
+            "status": {
+                "message": "Pending schedule",
+                "level": 1 
             }
         }
     ],
     "closed": [
         {
-            "property": {
-                "address": {
-                    "street": "1694 Noble Cape",
-                    "city": "Las Vegas",
-                    "state": "NV"
-                },
-                "imageUrl": "noblecape.png"
-            },
-            "moveInDate": "3 February 2020",
-            "rent": 3300.00,
-            "deposit": {
-                "amount": 6900.00,
-                "type": "Complete"
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1019",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Done"
             },
             "status": {
-                "message": "Awaiting Bank Processing",
-                "level": 3 
+                "message": "Done and dusted",
+                "level": 3
             }
         },
         {
-            "property": {
-                "address": {
-                    "street": "1141 Tawny Maze",
-                    "city": "Raleigh",
-                    "state": "NC"
-                },
-                "imageUrl": "tawnymaze.png"
-            },
-            "moveInDate": "12 January 2020",
-            "rent": 2500.00,
-            "deposit": {
-                "amount": 7500.00,
-                "type": "First, Last & Security"
+            "Name" : "Jon Snow",
+            "EmployeeID" : "IPA1020",
+            "EmpMailID" : "jon.snow@apisero.com",
+            "MulesoftCertifications" : {
+                "MCD" : "Done",
+                "MCPA" : "Done",
+                "MCIA" : "Done"
             },
             "status": {
-                "message": "Expired: No Payment Received",
-                "level": 1 
+                "message": "Recertified",
+                "level": 3
             }
         }
     ]
